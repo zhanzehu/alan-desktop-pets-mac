@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'none'; img-src file: data:; media-src file: data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self' file:"
+  />
+  <title>桌宠</title>
+  <link rel="stylesheet" href="pet.css" />
+</head>
+<body>
+  <div class="stage">
+    <div id="caption" class="caption" hidden><span id="captionText"></span></div>
+  </div>
+
+  <div class="figure">
+    <img id="face" class="face" alt="" draggable="false" />
+  </div>
+
+  <script src="pet.js"></script>
+</body>
+</html>

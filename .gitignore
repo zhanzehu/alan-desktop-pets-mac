@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.cache/
+.DS_Store
+*.log
+# 构建产物（248MB，可随时重新生成）
+三只桌宠.app/
